@@ -1,0 +1,35 @@
+@media (max-width: 991px) {
+    .article-content {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 600;
+    }
+    .healthhunt-header {
+        padding: 20px;
+    }
+    .healthhunt-header .logo a {
+        display: inline-flex;
+        max-width: 60px;
+    }
+    .healthhunt-article-block h2 {
+        font-size: 26px;
+    }
+    .content-inner {
+        padding: 20px 20px 0;
+    }
+    .healthhunt-article-block .col-9 {
+        width: 100%;
+    }
+    .healthhunt-article-block .col-3 {
+        width: 100%;
+    }
+    .article2 {
+        flex-direction: column-reverse;
+    }
+}
